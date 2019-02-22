@@ -6,10 +6,10 @@ const Character = props => {
     <div className='container'>
     {props.tv.map(movies => {
         return (
-            <div className='chars' key={movies.name}>
+            <div className='person' key={movies.name}>
             <h2>{movies.name}</h2>
-            <p>{movies.species}</p>
-            <p>(movies.gender)</p>
+            <p>Height: {movies.height}</p>
+            <p>Gender: {movies.gender}</p>
             </div>
         )
     })}
