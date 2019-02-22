@@ -6,3 +6,25 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.person {
+  margin-right: 4%;
+  margin-bottom: 4%;
+  width: 40%;
+  height: 250px;
+  box-shadow: 20px 10px 20px 10px #443e3e;
+
+}
+.person:hover {
+  background-image: url(http://thedenverhousewife.com/wp-content/uploads/2011/12/starwars_blk_il_258.jpg);
+  background-color: black;
+  opacity: 0.5;
+  width: 40%;
+  height: 250px;
+}
