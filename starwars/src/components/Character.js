@@ -8,8 +8,10 @@ const Character = props => {
         return (
             <div className='person' key={movies.name}>
             <h2>{movies.name}</h2>
-            <p>Height: {movies.height}</p>
-            <p>Gender: {movies.gender}</p>
+            <p><strong>Height:</strong>{movies.height}</p>
+            <p><strong>Mass:</strong>{movies.mass}</p>
+            <p><strong>Hair Color:</strong>{movies.hair_color}</p>
+            <p><strong>Gender:</strong>{movies.gender}</p>
             </div>
         )
     })}
